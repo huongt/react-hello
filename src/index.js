@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Clock from './Clock';
 import reportWebVitals from './reportWebVitals';
+import Toggle from './Toggle';
 
 const name = "Joshua";
 const user = {
@@ -90,7 +91,8 @@ ReactDOM.render(
   // element,
   // element3,
   // <MyApp />,
-  <Clock/>,
+  // <Clock/>,
+  <Toggle/>,
   document.getElementById('root')
 );
 
